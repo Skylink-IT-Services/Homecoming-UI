@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/Identity" Path="C:\Users\codeD\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.17\staticwebassets\V4\" />
-  <ContentRoot BasePath="_content/homecoming.api" Path="C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.com\homecoming.api\wwwroot\" />
-</StaticWebAssets>

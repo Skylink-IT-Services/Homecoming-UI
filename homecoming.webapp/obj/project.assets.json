@@ -9098,19 +9098,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kings\\.nuget\\packages\\": {}
+    "C:\\Users\\Student\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\homecoming.webapp.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj",
       "projectName": "homecoming.webapp",
-      "projectPath": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\homecoming.webapp.csproj",
-      "packagesPath": "C:\\Users\\kings\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\obj\\",
+      "projectPath": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kings\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9189,7 +9189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
