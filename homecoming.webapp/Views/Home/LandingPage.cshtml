@@ -1,0 +1,31 @@
+﻿@using homecoming.webapp.ViewModel
+@model IEnumerable<BusinessViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div>
+        <h5 class="acc">Browse Accomodations</h5>
+        @if (Model != null)
+        {
+            <div>
+            @foreach (var item in Model)
+            {
+                
+                <div class="card align-content-center" style="display: inline-block; width: 18rem; margin: 2px; border-radius: 5px; margin-top: 5px">
+                    <img class="card-img-top" src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.CoverPhotoUrl" alt="BusinessImage" width="200" height="200" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.BusinessName</h5>
+                        <hr />
+                        <div class="text-center">
+                            @Html.ActionLink("Browse Accomodation", "AccomodationsPage", "Home", new { id = item.BusinessId })
+                        </div>
+                    </div>
+                </div>           
+            }
+             </div>
+        }       
+    </div>
+
+</div>

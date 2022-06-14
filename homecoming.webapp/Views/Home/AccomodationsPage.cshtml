@@ -1,0 +1,26 @@
+﻿@using homecoming.webapp.ViewModel;
+@model IEnumerable<AccomodationViewModel>
+
+@{
+    ViewData["Title"] = "Accomodation Page";
+}
+
+<div class="container">
+    <div>
+        
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <div class="card align-content-center" style="display: inline-block; width: 18rem; margin: 2px; border-radius: 5px; margin-top: 5px; margin-top: 80px">
+                    <img class="card-img-top" src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.CoverPhoto" alt="BusinessImage" width="200" height="200" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Location</h5>
+                    </div>
+                </div>
+              }
+         }
+         
+    </div>
+
+</div>

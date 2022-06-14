@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - homecoming.com</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 custom-nav">
+            <div class="container">
+                <a style="position:relative; right:-400px; top:0" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="LandingPage"> <img src="~/img/logo_final.png" class="rounded mx-auto d-block" width="250" height="110" alt="logo" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div style="position:absolute; left:20px; top:5px" class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <h4 style="color:white">Homecoming.com</h4>
+            </div>
+            <div style="position:absolute; right:20px; top:5px" class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <partial name="_LoginPartial" />
+            </div>
+            <div class="" style=" position: relative; left: -400px; top: 0px; width:1200px; height: 50px; background-color: orange; border-width: 3px; border-style: solid; border-color: orange; margin-top: 200px; border-radius: 2px;">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="" style="padding-right:1px">
+                        <input style="height:45px; border-radius:2px" name="location" placeholder="Where are you going?" />
+                    </li>
+
+                    <li class="nav-item" style="padding-right:1px">
+                        <input style="height: 45px" class="datefield" data-val="true" data-val-required="Date is required"
+                               id="ReleaseDate" name="ReleaseDate" type="date" value="Checkin" />
+                    </li>
+                    <li class="nav-item" style="padding-right:1px">
+                        <input style="height: 45px" class="datefield" data-val="true" data-val-required="Date is required"
+                               id="ReleaseDate" name="ReleaseDate" type="date" value="Checkout" />
+                    </li>
+                    <li class="" style="padding-right:1px">
+                        <input style="height:45px;width:60px; border-radius:2px" name="location" placeholder="Adult" />
+                    </li>
+                    <li class="" style="padding-right:1px">
+                        <input style="height:45px; width:60px; border-radius:2px" name="location" placeholder="Rooms" />
+                    </li>
+                    <li class="" style="padding-right:1px">
+                        <input type="button" style="height:45px; width:80px; border-radius:2px; background-color:blue" name="location" value="Search" />
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - homecoming.webapp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
