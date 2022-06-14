@@ -9098,27 +9098,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\codeD\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kings\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.ui\\homecoming.webapp\\homecoming.webapp.csproj",
+      "projectUniqueName": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\homecoming.webapp.csproj",
       "projectName": "homecoming.webapp",
-      "projectPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.ui\\homecoming.webapp\\homecoming.webapp.csproj",
-      "packagesPath": "C:\\Users\\codeD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\codeD\\Desktop\\Honours\\Software Engineering Project\\homecoming.ui\\homecoming.webapp\\obj\\",
+      "projectPath": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\homecoming.webapp.csproj",
+      "packagesPath": "C:\\Users\\kings\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kings\\Source\\Repos\\Skylink-IT-Services\\Homecoming-UI\\homecoming.webapp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\codeD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\kings\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9188,12 +9181,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.21, 3.1.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9202,7 +9189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
