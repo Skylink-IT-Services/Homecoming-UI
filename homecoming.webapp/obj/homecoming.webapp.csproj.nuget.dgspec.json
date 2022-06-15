@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj": {}
+    "C:\\Users\\Student\\Desktop\\app\\homecoming.webapp\\homecoming.webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj": {
+    "C:\\Users\\Student\\Desktop\\app\\homecoming.webapp\\homecoming.webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Desktop\\app\\homecoming.webapp\\homecoming.webapp.csproj",
         "projectName": "homecoming.webapp",
-        "projectPath": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\homecoming.webapp.csproj",
+        "projectPath": "C:\\Users\\Student\\Desktop\\app\\homecoming.webapp\\homecoming.webapp.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Desktop\\file\\homecoming.webapp\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Desktop\\app\\homecoming.webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
