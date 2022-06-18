@@ -79,3 +79,59 @@ body {
     background-color: darkblue;
     height: 200px
 }
+
+/*----------------     Login form ---------------- */
+.login-form {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 800px;
+    width: 1400px;
+        
+
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+}
+
+
+#details-header {
+    padding-top: 20px;
+}
+
+.login-head {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.register-form {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 800px;
+    width: 1400px;
+}
+
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#details2-header {
+    padding-top: 20px;
+}
+
+.register-head {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
