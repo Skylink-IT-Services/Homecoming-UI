@@ -1,12 +1,16 @@
-﻿using homecoming.webapp.ViewModel;
+﻿using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace homecoming.webapp.Models
+namespace homecoming.webapp.ViewModel
 {
-    public class BusinessViewModel
+    public class BusinessUserViewModel
     {
+        [Key]
         public int BusinessId { get; set; }
+        public string AspUser { get; set; }
         public string BusinessName { get; set; }
         public string CoverPhotoUrl { get; set; }
         public string Tel_No { get; set; }
@@ -18,6 +22,10 @@ namespace homecoming.webapp.Models
         public bool IsActive { get; set; }
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedOn { get; set; }
-       // public virtual List<AccomodationViewModel> GetAccomodations { get; set; }
-}
+
+        [Display(Name = "Choose CoverPhoto")]
+        [NotMapped]
+        public IFormFile ImageFile { get; set; }
+        public virtual List<AccomodationViewModel> GetAccomodations { get; set; }
+    }
 }

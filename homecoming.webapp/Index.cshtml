@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="col-sm-4 col-sm-offset-2">
+    <section>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label">BedRoom<i class="fa-solid fa-bed"></i></label>
+                    <input asp-for="RoomDetails.Type" class="form-control" />
+                    <span asp-validation-for="RoomDetails.Type" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label"> No. of Beds</label>
+                    <input asp-for="RoomDetails.NumberOfBeds" class="form-control" />
+                    <span asp-validation-for="RoomDetails.NumberOfBeds" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="form-group">
+                <label asp-for="RoomDetails" class="control-label"></label>
+                <input asp-for="RoomDetails.Description" class="form-control" style="width:350px; height:70px; font-size:smaller" />
+                <span asp-validation-for="RoomDetails.Description" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <label class="control-label">conditioner</label>
+                <input asp-for="RoomDetails.Air_condition" class="form-control checkbox-dm" />
+            </div>
+            <div class="col-sm-auto">
+                <label class="control-label"><i class="fa-solid fa-tv"></i></label>
+                <input asp-for="RoomDetails.Television" class="form-control checkbox-dm" />
+            </div>
+            <div class="col-sm-auto">
+                <label class="control-label">
+                    <i class="fa fa-bath" aria-hidden="true"></i>
+                </label>
+                <input asp-for="RoomDetails.Private_bathroom" class="form-control checkbox-dm" />
+            </div>
+            <div class="col-sm-auto">
+                <label class="control-label"><i class="fa-solid fa-wifi"></i></label>
+                <input asp-for="RoomDetails.Wifi" class="form-control checkbox-dm" />
+            </div>
+        </div>
+    </section>
+ </div>

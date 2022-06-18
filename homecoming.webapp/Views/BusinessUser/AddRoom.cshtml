@@ -1,0 +1,148 @@
+﻿@model homecoming.webapp.ViewModel.RoomViewModel
+@{
+    ViewData["Title"] = "AddRoom";
+}
+
+
+<script type="text/javascript">
+    function AddItem(btn) {
+        var table = document.getElementById('infoTable');
+        var rows = table.getElementsByTagName('tr');
+
+        var rowOuterHtml = rows[rows.length - 1].outerHTML;
+        var lastrowIndex = document.getElementById('hdnLastIndex').value;
+        var nextrowIndex = eval(lastrowIndex) + 1;
+        document.getElementById('hdnLastIndex').value = nextrowIndex;
+
+        rowOuterHtml = rowOuterHtml.replaceAll('_' + lastrowIndex + '_', '_' + nextrowIndex + '_');
+        rowOuterHtml = rowOuterHtml.replaceAll('[' + lastrowIndex + ']', '[' + nextrowIndex + ']');
+        rowOuterHtml = rowOuterHtml.replaceAll('_' + lastrowIndex, '_' + nextrowIndex);
+
+        var newRow = table.insertRow();
+        newRow.innerHTML = rowOuterHtml;
+
+
+        var btnAddID = btn.id;
+        var btnDeleteId = btnAddID.replaceAll('btnadd', 'btnremove');
+
+        var delBtn = document.getElementById(btnDeleteId);
+        delBtn.classList.add("visible");
+        delBtn.classList.remove("invisible");
+
+        var addBtn = document.getElementById(btnAddID);
+        addBtn.classList.remove("visible");
+        addBtn.classList.add("invisible");
+    }
+
+    function DeleteItem(btn) {
+        $(btn).closest('tr').remove();
+    }
+
+</script>
+<div class="col-md-12 mx-auto pt-0 p-0 custom-border-shadow">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+            <h4>Add Room To Accomodation</h4>
+        </div>
+
+        <form asp-action="AddRoom" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-md-4">
+                    <section style="padding:4px">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Description" class="control-label"></label>
+                            <input asp-for="Description" class="form-control" />
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price" class="control-label"></label>
+                            <input asp-for="Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ImageList" class="control-label"></label>
+                            <input asp-for="ImageList" class="form-control" />
+                            <span asp-validation-for="ImageList" class="text-danger"></span>
+                        </div>
+                        <div class="form-group" style="margin-top:40px;">
+                            <input type="submit" value="Create Room" class="btn btn-primary" />
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-6">
+                    <section>
+                        <table class="table table-striped table-sm" id="infoTable" style="padding:4px">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Bedroom Type
+                                    </th>
+                                    <th>
+                                        Number Of Beds
+                                    </th>
+                                    <th>
+                                        Description
+                                    </th>
+                                    <th>
+                                        Television
+                                    </th>
+                                    <th>
+                                        Aircon
+                                    </th>
+                                    <th>
+                                        Ensuite
+                                    </th>
+                                    <th>
+                                        Wifi
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for (int i = 0; i < Model.RoomDetails.Count; i++)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Type, new { htmlAttributes = new { @class = "form-control normal-box" } })
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].NumberOfBeds, new { htmlAttributes = new { @class = "form-control normal-box" } })
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Description, new { htmlAttributes = new { @class = "form-control description-box" } })
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Television, new { htmlAttributes = new { @class = "form-control check-dm" } })
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Air_condition, new { htmlAttributes = new { @class = "form-control check-dm" } })
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Private_bathroom, new { htmlAttributes = new { @class = "form-control check-dm" } })
+
+                                        <td>
+                                            @Html.EditorFor(x => x.RoomDetails[i].Wifi, new { htmlAttributes = new { @class = "form-control check-dm" } })
+                                        </td>
+                                        <td>
+                                            <button id="dummy-@i" type="button" class="btn btn-sm invisible">Dummy</button>
+                                            <button id="btnadd-@i" type="button" class="btn btn-sm btn-secondary visible" onclick="AddItem(this)"><i class="fa fa-plus"></i></button>
+                                            <button id="btnremove-@i" type="button" class="btn btn-sm btn-danger invisible" onclick="DeleteItem(this)"><i class="fas fa-trash"></i></button>
+                                        </td>
+                                    </tr>
+
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<input type="hidden" id="hdnLastIndex" value="0" />
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}}
+
+  

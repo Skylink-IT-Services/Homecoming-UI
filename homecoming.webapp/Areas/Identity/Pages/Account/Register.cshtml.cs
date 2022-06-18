@@ -108,7 +108,15 @@ namespace homecoming.webapp.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if (Input.IsBussinessUser)
+                        {
+                            return RedirectToAction("ManageBusiness", "BusinessUser");
+                        }
+                        else
+                        {
+                            return RedirectToAction("CreateUser", "BasicUser");
+                        }
+                        //return LocalRedirect(returnUrl);
                     }
                 }
                 foreach (var error in result.Errors)

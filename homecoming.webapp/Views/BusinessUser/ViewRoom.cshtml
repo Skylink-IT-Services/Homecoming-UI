@@ -1,0 +1,69 @@
+﻿@model homecoming.webapp.ViewModel.RoomViewModel
+
+@{
+    ViewData["Title"] = "ViewRoom";
+}
+
+<div class="col-md-12 mx-auto pt-0 p-0">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+            <h4>View Room Info</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <section>
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Accomodation)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Accomodation.AccomodationId)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Description)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Description)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Price)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Price)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.CreatedAt)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.CreatedAt)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.UpdatedOn)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.UpdatedOn)
+                        </dd>
+
+                    </dl>
+                </section>
+            </div>
+
+            <div class="col-md-6 col-md-offset-2">
+                <section>
+                    <p>list of room types in an accomodation to be displayed here</p>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+     
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <a asp-action="Edit" asp-route-id="">Edit</a> |
+            </div>
+            <div class=" col-md-6 col-md-offset-2">
+                <a asp-action="AccomodationList">Back</a>
+            </div>
+        </div>

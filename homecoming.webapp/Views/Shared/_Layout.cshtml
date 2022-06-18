@@ -5,11 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - homecoming.com</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-xl navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 custom-nav">
+        @{
+            if(User.Identity.IsAuthenticated && User.IsInRole("SuperAdmin")){
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="CreateRole">Administrator Dashboard</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Manage Roles">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="About">Manage Registered Business's</a>
+                        </li>
+                    </ul>
+                     <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+            }else if(User.Identity.IsAuthenticated && User.IsInRole("BusinessUser")){
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="BusinessUser" asp-action="AccomodationList">Dashboard</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="BusinessUser" asp-action="AccomodationList">Manage Accomodations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="BusinessUser" asp-action="Booking">Booking Information</a>
+                        </li>
+                    </ul>
+                     <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+            }else{
+                 <nav class="navbar navbar-expand-xl navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 custom-nav">
             <div class="container">
                 <a style="position:relative; right:-400px; top:0" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="LandingPage"> <img src="~/img/logo_final.png" class="rounded mx-auto d-block" width="250" height="110" alt="logo" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -49,6 +94,9 @@
                 </ul>
             </div>
         </nav>
+            }
+        }
+       
     </header>
     <div class="container">
         <main role="main" class="pb-3">

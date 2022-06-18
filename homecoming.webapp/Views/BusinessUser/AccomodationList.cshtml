@@ -1,0 +1,75 @@
+﻿@model IEnumerable<homecoming.webapp.ViewModel.AccomodationViewModel>
+
+@{
+    ViewData["Title"] = "AccomodationList";
+}
+
+<p class="acc">
+    <a asp-action="AddAccomodation">Add Accomodation</a>
+</p>
+<div class="col-md-12 mx-auto pt-0 p-0 custom-border-shadow">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+            <h4>Edit Room info</h4>
+        </div>
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BusinessId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CoverPhoto)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.AccomodationName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Location)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Rating)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Business.BusinessId)
+                            </td>
+                            <td>
+                                <img src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.CoverPhoto" style="width:65px; height: 65px" />
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AccomodationName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Location)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Rating)
+                            </td>
+                            <td>
+                                <a class="link-hover info-message" asp-action="AddRoom" asp-route-id="@item.AccomodationId"><i class="fa fa-plus" aria-hidden="true"></i></a> |
+                                <a class="link-hover" asp-action="EditRoom" asp-route-id="@item.AccomodationId"><i class="fa fa-pencil" aria-hidden="true"></i></a> |
+                                <a class="link-hover" asp-action="ViewRoom" asp-route-id="@item.AccomodationId"><i class="fa fa-eye" aria-hidden="true"></i></a>|
+                                <a class="link-hover" asp-action="DeleteRoom" asp-route-id="@item.AccomodationId"><i class="fa fa-trash" aria-hidden="true"></i></a> |
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    </div>
+      

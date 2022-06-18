@@ -61,6 +61,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color:whitesmoke
 }
 .footer {
   position: absolute;
@@ -73,9 +74,49 @@ body {
 .acc {
     font-family: 'Segoe UI';
     font-weight: bold; 
-    margin-top: 80px;
+    margin-top: 15px;
 }
 .custom-nav {
     background-color: darkblue;
     height: 200px
+}
+
+.link-hover {
+    transition: .4s;
+}
+    .link-hover:hover {
+        transition: .4s;
+        background-color: #eca534;
+    }
+.hide-info {
+    display: none;
+}
+
+.info-message:hover + .hide-info {
+    display: block;
+    color: #eca534;
+}
+
+.checkbox-dm{
+    width:20px;
+    height:20px;
+}
+.table-size{
+    padding:2px,2px,2px,2px;
+    font-size:x-small
+}
+
+.full-width{
+    width:100%
+}
+.normal-box{
+    width:100px;
+}
+.description-box{
+    width:180px;
+}
+.custom-border-shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #eca534;
 }

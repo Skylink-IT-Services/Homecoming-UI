@@ -361,7 +361,6 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homeco
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.AssemblyReference.cache
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.AssemblyInfoInputs.cache
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.AssemblyInfo.cs
@@ -408,3 +407,194 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homeco
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.StaticWebAssets.xml
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.exe
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.deps.json
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.runtimeconfig.json
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.runtimeconfig.dev.json
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.pdb
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.Views.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\homecoming.webapp.Views.pdb
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.AssemblyReference.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.AssemblyInfoInputs.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.AssemblyInfo.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.CoreCompileInputs.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.RazorAssemblyInfo.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.RazorAssemblyInfo.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\staticwebassets\homecoming.webapp.StaticWebAssets.Manifest.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\staticwebassets\homecoming.webapp.StaticWebAssets.xml
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\scopedcss\bundle\homecoming.webapp.styles.css
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.TagHelpers.input.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.TagHelpers.output.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.RazorCoreGenerate.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewBooking.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AccomodationsPage.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Home\LandingPage.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.RazorTargetAssemblyInfo.cache
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.RazorTargetAssemblyInfo.cs
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.Views.pdb
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.CopyComplete
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.dll
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.pdb
+C:\Users\kings\Source\Repos\Skylink-IT-Services\Homecoming-UI\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.genruntimeconfig.cache
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\ManageBusiness.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AccomodationList.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AddAccomodation.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BasicUser\CreateUser.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\EditRoom.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AddRoom.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\ViewRoom.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Index.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.AssemblyReference.cache

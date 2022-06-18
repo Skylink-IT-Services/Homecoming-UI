@@ -1,0 +1,58 @@
+﻿@model homecoming.webapp.ViewModel.AccomodationViewModel
+
+@{
+    ViewData["Title"] = "AddAccomodation";
+}
+
+<div class="col-md-12 mx-auto pt-0 p-0 custom-border-shadow">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+            <h4>Add Accomodation</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="AddAccomodation" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="AccomodationName" class="control-label"></label>
+                        <input asp-for="AccomodationName" class="form-control" />
+                        <span asp-validation-for="AccomodationName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Location" class="control-label"></label>
+                        <input asp-for="Location" class="form-control" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CoverImage" class="control-label"></label>
+                        <input asp-for="CoverImage" class="form-control" />
+                        <span asp-validation-for="CoverImage" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ImageList" class="control-label"></label>
+                        <input asp-for="ImageList" class="form-control" />
+                        <span asp-validation-for="ImageList" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

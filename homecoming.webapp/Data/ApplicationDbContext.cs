@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using homecoming.webapp.Models;
+using homecoming.webapp.ViewModel;
 
 namespace homecoming.webapp.Data
 {
@@ -10,6 +10,8 @@ namespace homecoming.webapp.Data
             : base(options)
         {
         }
-        public DbSet<UserRole> UserRole { get; set; }
+
+        public DbSet<RoomTypeViewModel> RoomDetails { get; set; }
+        public DbSet<RoomViewModel> Rooms { get; set; }
     }
 }

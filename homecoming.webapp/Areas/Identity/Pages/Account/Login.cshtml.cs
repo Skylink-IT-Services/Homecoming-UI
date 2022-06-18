@@ -88,9 +88,9 @@ namespace homecoming.webapp.Areas.Identity.Pages.Account
                     {
                         return RedirectToAction("CreateRole", "Admin");
                     }
-                    else if ( await _userManager.IsInRoleAsync(user, "BusinessUser"))
+                    else if( await _userManager.IsInRoleAsync(user, "BusinessUser"))
                     {
-                        return RedirectToAction("ManageBusiness", "BusinessUser");
+                        return RedirectToAction("AccomodationList", "BusinessUser");
                     }
                     else
                     {

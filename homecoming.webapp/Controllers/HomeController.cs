@@ -22,39 +22,35 @@ namespace homecoming.webapp.Controllers
 
         public async Task<IActionResult> LandingPage()
         {
-            IEnumerable<BusinessViewModel> houses = null;
+            IEnumerable<BusinessUserViewModel> houses = null;
             using(var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Config.BaseUrl);
                 var response = await client.GetAsync("business");
-                var result = response.Content;
                 if (response.IsSuccessStatusCode)
                 {
-                    var read = result.ReadAsAsync<IList<BusinessViewModel>>();
-                    read.Wait();
-                    houses = read.Result;
+                    houses = await response.Content.ReadAsAsync<IList<BusinessUserViewModel>>();
                 }
                 else
                 {
-                    houses = Enumerable.Empty<BusinessViewModel>();
+                    houses = Enumerable.Empty<BusinessUserViewModel>();
                     ModelState.AddModelError(string.Empty, "Server error try after some time.");
                 }
             }
 
             return View(houses);
         }
-        public IActionResult AccomodationsPage(int id)
+        public async Task<IActionResult> AccomodationsPage(int id)
         {
            IEnumerable<AccomodationViewModel> accomodationList = null;
             using(var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Config.BaseUrl);
-                var response = client.GetAsync($"accomodation/GetByBusinessId/{id}");
-                response.Wait();
-                var result = response.Result;
-                if (result.IsSuccessStatusCode)
+                var response = await client.GetAsync($"accomodation/GetByBusinessId/{id}");
+                
+                if (response.IsSuccessStatusCode)
                 {
-                    var read = result.Content.ReadAsAsync<IList<AccomodationViewModel>>();
+                    var read = response.Content.ReadAsAsync<IList<AccomodationViewModel>>();
                     read.Wait();
                     accomodationList = read.Result;
                 }

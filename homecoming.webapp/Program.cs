@@ -23,9 +23,6 @@ namespace homecoming.webapp
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
-
-
-       
+                });   
     }
 }
