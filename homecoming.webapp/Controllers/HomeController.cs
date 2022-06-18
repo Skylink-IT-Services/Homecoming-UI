@@ -64,7 +64,7 @@ namespace homecoming.webapp.Controllers
             return View(accomodationList);
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
