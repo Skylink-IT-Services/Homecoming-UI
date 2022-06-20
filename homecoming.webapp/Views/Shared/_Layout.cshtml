@@ -11,9 +11,9 @@
 <body>
     <header>
         @{
-            if(User.Identity.IsAuthenticated && User.IsInRole("SuperAdmin")){
+            if(User.Identity.IsAuthenticated && User.IsInRole("SuperAdmin")){               
                 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="CreateRole">Administrator Dashboard</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
         </nav>
             }else if(User.Identity.IsAuthenticated && User.IsInRole("BusinessUser")){
                 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="BusinessUser" asp-action="AccomodationList">Dashboard</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -55,8 +55,8 @@
         </nav>
             }else{
                  <nav class="navbar navbar-expand-xl navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 custom-nav">
-            <div class="container">
-                <a style="position:relative; right:-400px; top:0" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="LandingPage"> <img src="~/img/logo_final.png" class="rounded mx-auto d-block" width="250" height="110" alt="logo" /> </a>
+            <div class="container-fluid">
+                <a style="position:relative; right:-400px; top:0" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="LandingPage"> <img src="~/img/logo final.png" class="rounded mx-auto d-block" width="250" height="110" alt="logo" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

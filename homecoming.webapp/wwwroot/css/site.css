@@ -98,8 +98,8 @@ body {
 }
 
 .checkbox-dm{
-    width:20px;
-    height:20px;
+    width:15px;
+    height:15px;
 }
 .table-size{
     padding:2px,2px,2px,2px;
@@ -119,4 +119,137 @@ body {
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px #eca534;
+}
+
+.page-layout{
+   width:80%
+}
+
+.page-layout-position{
+    left:120px
+}
+
+.custom-text-box{
+    height:30px;
+    width:65px;
+    text-align:center;
+    background-color:aliceblue;
+}
+.hover_effect {
+    height: 25%;
+    width: auto;
+}
+
+    .hover_effect:hover {
+        height: 100%;
+        width: auto;
+    }
+
+.box-lignment{
+    left:350px
+}
+
+.locations-row {
+    display: flex;
+}
+
+.location-image {
+    display: flex;
+    padding: 10px;
+}
+
+    .location-image img {
+        width: 550px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+.img-text {
+    position: absolute;
+    color: White;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.locations-row2 {
+    display: flex;
+    margin-top: 0;
+}
+
+.location-image2 {
+    display: flex;
+    padding: 15px;
+}
+
+    .location-image2 img {
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+.location-image img:hover {
+    border: solid 3px orange;
+}
+
+.location-image2 img:hover {
+    border: solid 3px orange;
+}
+
+.row-by-row {
+    display: flex;
+}
+
+/*#rowID{
+    padding-top: 40px;
+}
+*/
+.location-image3 {
+    padding: 10px;
+}
+
+    .location-image3 img {
+        width: 350px;
+        height: 200px;
+    }
+
+.img-descript {
+    padding-left: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.trips-section, .pic-container {
+    padding-top: 40px;
+}
+
+.location-image3 img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.location-image3:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.stickers {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #D3D3D3;
+}
+
+.sticker-icon {
+    font-size: 50px;
+    padding-left: 80px;
 }

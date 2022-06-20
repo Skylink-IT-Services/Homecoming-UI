@@ -4,28 +4,233 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container">
-    <div>
-        <h5 class="acc">Browse Accomodations</h5>
-        @if (Model != null)
-        {
-            <div>
-            @foreach (var item in Model)
-            {
-                
-                <div class="card align-content-center" style="display: inline-block; width: 18rem; margin: 2px; border-radius: 5px; margin-top: 5px">
-                    <img class="card-img-top" src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.CoverPhotoUrl" alt="BusinessImage" width="200" height="200" />
-                    <div class="card-body">
-                        <h5 class="card-title">@item.BusinessName</h5>
-                        <hr />
-                        <div class="text-center">
-                            @Html.ActionLink("Browse Accomodation", "AccomodationsPage", "Home", new { id = item.BusinessId })
-                        </div>
-                    </div>
-                </div>           
-            }
-             </div>
-        }       
-    </div>
+
+<div class=" landingpage">
+    <section class="pic-container">
+
+
+        <div>
+            <h2 class="acc">Browse by location</h2>
+        </div>
+
+        <div class=" locations">
+
+            <div class="locations-row">
+                <div class="location-image">
+                    <img src="~/img/Berea.jpg">
+                    <h3 class="img-text">  Berea  </h3>
+                    @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
+                    *@
+                </div>
+                <div class="location-image">
+                    <img src="~/img/UmhlangaR.jpg">
+                    <h3 class="img-text">  Umhlanga </h3>
+                    @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
+                    *@
+
+                </div>
+            </div>
+            <div class="locations-row2">
+                <a asp-action="Accomodations" asp-controller="Booking">
+                <div class="location-image2">
+                    <img src="~/img/durbanN.jpg">
+                    <h3 class="img-text"> Durban North   </h3>
+                </div>
+                </a>
+                <div class="location-image2">
+                    <img src="~/img/westville.jpg">
+                    <h3 class="img-text"> Westville   </h3>
+                </div>
+
+
+                <div class="location-image2">
+                    <img src="~/img/durbanC.jpg">
+                    <h3 class="img-text"> Durban Central   </h3>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="trips-section">
+        <div>
+            <h2 class="acc">Get inspiration for your next trip</h2>
+        </div>
+
+        <br />
+        <div class="row-by-row">
+
+            <div class="location-image3">
+                <img src="~/img/botanic.jpg">
+            </div>
+            <div class="img-descript">
+                <h4> Botanic Gardens </h4>
+                <p>
+                    The Durban Botanic Gardens is situated in the City of Durban,
+                    KwaZulu-Natal and is Durban’s oldest public institution
+                    and Africa’s oldest surviving botanic garden. The Durban Botanical Gardens are famous for
+                    its extensive collection of South African Cycad species.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row-by-row">
+
+            <div class="location-image3">
+                <img src="~/img/moses.jpg">
+            </div>
+            <div class="img-descript">
+                <h3> Moses Mabhida </h3>
+                <p>
+                    The Big Rush Big Swing has been officially named the world’s tallest swing by the
+                    Guinness Book of Records since 14 May 2011. Not your average swing, the aptly named
+                    Big Swing allows you to take the thrilling leap swinging out into a massive 220m arc
+                    where you soar into the centre of the stadium.
+
+                    Go on, take the leap.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row-by-row">
+
+            <div class="location-image3">
+                <img src="~/img/water.jpg">
+            </div>
+            <div class="img-descript">
+                <h3> uShaka Marine World </h3>
+                <p>
+                    A world class entertainment theme park and tourism destination located in on Durban’s Golden Mile.
+                    Looking for things to do in Durban, South Africa?  We bring together cultures, like no other place
+                    in Africa.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row-by-row">
+
+            <div class="location-image3">
+                <img src="~/img/phezulu.jpg">
+            </div>
+            <div class="img-descript">
+                <h3> Phezulu Safari </h3>
+                <p>
+                    Whether you are after a hearty meal while overlooking the extraordinary Valley of a
+                    Thousand Hills, enjoying a guided 4×4 game drive through the Phezulu Conservation Area or
+                    watching the crocodiles sun themselved on the banks of their ponds – our friendly staff are
+                    ready to welcome you.
+
+
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </section>
+    <br /> <br />
+    <section class="stickers">
+
+        <div class="sticker-icon">
+            <i class="fas fa-wifi fa-10px"></i>
+        </div>
+
+        <div class="sticker-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
+
+        <div class="sticker-icon">
+            <i class="fa-solid fa-person-swimming"></i>
+        </div>
+
+        <div class="sticker-icon">
+            <i class="fa-solid fa-utensils"></i>
+        </div>
+
+        <div class="sticker-icon">
+            <i class="fa-solid fa-wheelchair"></i>
+        </div>
+
+        <div class="sticker-icon">
+            <i class="fa-solid fa-tv"></i>
+        </div>
+
+    </section>
+
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="container">
+        <div>
+            <h5 class="acc">Browse Accomodations</h5>
+            @if (Model != null)
+            {
+                <div>
+                @foreach (var item in Model)
+                {
+                   <div class="slider">
+
+                       <div class="slides">
+                           <div class="img-container">
+                               <img src="~/img/image2.jpg">
+                            </div>
+
+
+
+
+                       </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.BusinessName</h5>
+                        </div>
+
+                   </div>
+                }
+               </div>
+            }
+        </div>
+
+    </div>
+*@

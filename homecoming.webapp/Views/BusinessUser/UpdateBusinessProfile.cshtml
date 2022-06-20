@@ -1,0 +1,58 @@
+﻿@model homecoming.webapp.ViewModel.BusinessUserViewModel
+
+@{
+    ViewData["Title"] = "AddAccomodation";
+}
+
+<div class="col-md-12 mx-auto pt-0 p-0 custom-border-shadow text-center">
+    <div class="card">
+        <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
+            <h4 class="text-center">Update Business Profile</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" style="left:360px">
+                <form asp-action="UpdateBusinessProfile" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="BusinessName" class="control-label"></label>
+                        <input asp-for="BusinessName" class="form-control" />
+                        <span asp-validation-for="BusinessName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Tel_No" class="control-label"></label>
+                        <input asp-for="Tel_No" class="form-control" />
+                        <span asp-validation-for="Tel_No" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="AddressLine1" class="control-label"></label>
+                        <input asp-for="AddressLine1" class="form-control" />
+                        <span asp-validation-for="AddressLine1" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="City" class="control-label"></label>
+                        <input asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Zipcode" class="control-label"></label>
+                        <input asp-for="Zipcode" class="form-control" />
+                        <span asp-validation-for="Zipcode" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

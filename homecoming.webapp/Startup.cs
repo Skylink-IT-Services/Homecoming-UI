@@ -1,5 +1,6 @@
 using homecoming.webapp.Data;
 using homecoming.webapp.Models;
+using homecoming.webapp.ViewModel;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,8 @@ namespace homecoming.webapp
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<BusinessUserViewModel>();
+            services.AddScoped<LocationViewModel>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

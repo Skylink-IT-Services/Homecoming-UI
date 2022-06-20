@@ -593,8 +593,12 @@ C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homeco
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AccomodationList.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AddAccomodation.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BasicUser\CreateUser.cshtml.g.cs
-C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\EditRoom.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\AddRoom.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\ViewRoom.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Index.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\UpdateBusinessProfile.cshtml.g.cs
 C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\homecoming.webapp.csproj.AssemblyReference.cache
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\EditAccomodation.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\EditRoom.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\BusinessUser\ViewRoomDetail.cshtml.g.cs
+C:\Users\codeD\Desktop\Honours\Software Engineering Project\homecoming.ui\homecoming.webapp\obj\Debug\netcoreapp3.1\Razor\Views\Booking\Accomodations.cshtml.g.cs

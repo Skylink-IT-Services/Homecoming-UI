@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace homecoming.webapp.ViewModel
@@ -16,5 +17,6 @@ namespace homecoming.webapp.ViewModel
         public Boolean Wifi { get; set; }
         public Boolean Air_condition { get; set; }
         public Boolean Private_bathroom { get; set; }
+        public virtual BedRoomType BedRoomTypes { get; set; }
     }
 }

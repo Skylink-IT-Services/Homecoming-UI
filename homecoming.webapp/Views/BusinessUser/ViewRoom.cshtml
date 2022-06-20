@@ -1,57 +1,130 @@
-﻿@model homecoming.webapp.ViewModel.RoomViewModel
+﻿@model homecoming.webapp.ViewModel.AccomodationViewModel
 
 @{
     ViewData["Title"] = "ViewRoom";
 }
 
-<div class="col-md-12 mx-auto pt-0 p-0">
+<div class="col-md-12 mx-auto pt-0 p-0" style="margin-top:40px; width:100%">
     <div class="card">
         <div class="card-header bg-primary text-uppercase text-white" style="height:45px">
-            <h4>View Room Info</h4>
+            <h4 class="text-center">View Room Info</h4>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <section>
-                    <dl class="row">
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.Accomodation)
-                        </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.Accomodation.AccomodationId)
-                        </dd>
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.Description)
-                        </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.Description)
-                        </dd>
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.Price)
-                        </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.Price)
-                        </dd>
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.CreatedAt)
-                        </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.CreatedAt)
-                        </dd>
-                        <dt class="col-sm-2">
-                            @Html.DisplayNameFor(model => model.UpdatedOn)
-                        </dt>
-                        <dd class="col-sm-10">
-                            @Html.DisplayFor(model => model.UpdatedOn)
-                        </dd>
-
-                    </dl>
+                    <div class="card">
+                        <div class="card-header bg-info text-uppercase text-white">
+                            <div class="text-center">
+                                @Model.AccomodationName
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-img">
+                                <img src="https://fileblob20.blob.core.windows.net/cloud-upload/@Model.CoverPhoto" style="width:160px;height:100px;" />
+                            </div>
+                            <div>
+                                @Model.Description
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="card-footer">
+                            <div>
+                               @Model.GeoLocation.LocationName
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
 
-            <div class="col-md-6 col-md-offset-2">
+            <div class="col-md-7">
                 <section>
-                    <p>list of room types in an accomodation to be displayed here</p>
+                    <table class="table-bordered" style="margin-top:15px">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Room Description
+                                </th>
+                                <th>
+                                   IsBooked?
+                                </th>
+                                <th>
+                                   Price
+                                </th>
+                                <th>
+                                    Images
+                                </th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                if (Model.AccomodationRooms != null)
+                                {
+                                    for (int i = 0; i < Model.AccomodationRooms.Count; i++)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Model.AccomodationRooms[i].Description
+                                            </td>
+                                            <td>
+                                                <div style="margin-left: 5px; margin-right:4px">
+                                                    @Html.CheckBoxFor(o => o.AccomodationRooms[i].IsBooked)
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div style="margin-left: 5px; margin-right:4px">
+                                                   R @Model.AccomodationRooms[i].Price
+                                                </div>                                             
+                                            </td>
+                                            <td>
+                                                <div class="carousel slide" data-ride="carousel" data-interval="2000" style="width:155px; height:68px;left:3px">
+                                                    <div class="carousel-inner">
+                                                        @{
+                                                            foreach (var item in Model.AccomodationRooms[i].RoomGallary)
+                                                            {
+                                                              <div class="carousel-item @(item == Model.AccomodationRooms[i].RoomGallary.First()? "active" : "")">
+                                                              <img src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.ImageUrl" alt="@item.ImageUrl" style="height:68px; width:155px; margin:3px;">                                               
+                                                             </div>
+                                                            }
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a class="link-hover" asp-action="EditRoom" asp-route-id="@Model.AccomodationRooms[i].RoomId"><i class="fa fa-pencil" aria-hidden="true"></i></a> |
+                                                <a class="link-hover" asp-action="ViewRoomDetail" asp-route-id="@Model.AccomodationRooms[i].RoomId"><i class="fa fa-eye" aria-hidden="true"></i></a>|
+                                                <a class="link-hover" asp-action="DeleteRoom" asp-route-id="@Model.AccomodationRooms[i].RoomId"><i class="fa fa-trash" aria-hidden="true"></i></a> |
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            }
+
+                        </tbody>
+                    </table>
                 </section>
+            </div>
+        </div>
+
+        <div class="card" style="margin-top:5px; background-color:azure">
+            <div class="card-header text-uppercase text-white" style="background-color:orange; height:35px;">
+                <h5 class="text-center">Photo's Slideshow'</h5>
+            </div>
+            <div class="carousel slide" data-ride="carousel" data-interval="2000" style="width:1050px; height:290px;left:20px">
+                <div class="carousel-inner">
+                    @{
+                        foreach (var item in Model.AccomodationGallary)
+                        {
+                            <div class="carousel-item @(item == Model.AccomodationGallary.First() ? "active" : "")">
+                                <img src="https://fileblob20.blob.core.windows.net/cloud-upload/@item.ImageUrl" alt="@item.ImageUrl" style="height:260px; width:1050px; margin:10px;">
+                                <div class="carousel-caption">
+                                    <p class="mb-0">@Model.Rating / 10</p>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
             </div>
         </div>
     </div>
@@ -59,11 +132,11 @@
      
 
 
-        <div class="row">
+        @*<div class="row">
             <div class="col-md-6">
                 <a asp-action="Edit" asp-route-id="">Edit</a> |
             </div>
             <div class=" col-md-6 col-md-offset-2">
                 <a asp-action="AccomodationList">Back</a>
             </div>
-        </div>
+        </div>*@
