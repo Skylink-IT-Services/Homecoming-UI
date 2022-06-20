@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 namespace homecoming.webapp.Controllers
 {
     public class BookingController : Controller
-    {
-        public async Task<IActionResult> Accomodations(string location="Durban North")
+    {      
+        public async Task<IActionResult> Accomodations(int id)
         {
             List<AccomodationViewModel> listOfAccomodationsByLocation = null;
             using(HttpClient client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Config.BaseUrl);
-                HttpResponseMessage httpResponse = await client.GetAsync($"location/getbylocationid/{location}");
+                HttpResponseMessage httpResponse = await client.GetAsync($"location/GetAccomByLocationId/{id}");
                 if (httpResponse.IsSuccessStatusCode)
                 {
                     listOfAccomodationsByLocation = await httpResponse.Content.ReadAsAsync<List<AccomodationViewModel>>();
@@ -30,4 +30,6 @@ namespace homecoming.webapp.Controllers
             return View(listOfAccomodationsByLocation);
         }
     }
+
+
 }

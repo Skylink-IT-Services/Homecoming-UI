@@ -20,25 +20,10 @@ namespace homecoming.webapp.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> LandingPage()
+        public IActionResult LandingPage()
         {
-            IEnumerable<BusinessUserViewModel> houses = null;
-            using(var client = new HttpClient())
-            {
-                client.BaseAddress = new Uri(Config.BaseUrl);
-                var response = await client.GetAsync("business");
-                if (response.IsSuccessStatusCode)
-                {
-                    houses = await response.Content.ReadAsAsync<IList<BusinessUserViewModel>>();
-                }
-                else
-                {
-                    houses = Enumerable.Empty<BusinessUserViewModel>();
-                    ModelState.AddModelError(string.Empty, "Server error try after some time.");
-                }
-            }
-
-            return View(houses);
+            DefaultAreas defaultAreas = new DefaultAreas();
+            return View(defaultAreas);
         }
         public async Task<IActionResult> AccomodationsPage(int id)
         {

@@ -37,6 +37,7 @@ namespace homecoming.webapp
             services.AddRazorPages();
             services.AddScoped<BusinessUserViewModel>();
             services.AddScoped<LocationViewModel>();
+            services.AddSingleton<DefaultAreas>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

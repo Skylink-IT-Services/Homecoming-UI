@@ -1,7 +1,9 @@
 ﻿@using homecoming.webapp.ViewModel
-@model IEnumerable<BusinessUserViewModel>
+@model homecoming.webapp.ViewModel.DefaultAreas
+@*@inject homecoming.webapp.ViewModel.DefaultAreas Area*@
 @{
     ViewData["Title"] = "Home Page";
+
 }
 
 
@@ -15,39 +17,45 @@
 
         <div class=" locations">
 
-            <div class="locations-row">
-                <div class="location-image">
-                    <img src="~/img/Berea.jpg">
-                    <h3 class="img-text">  Berea  </h3>
-                    @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
-                    *@
-                </div>
-                <div class="location-image">
-                    <img src="~/img/UmhlangaR.jpg">
-                    <h3 class="img-text">  Umhlanga </h3>
-                    @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
-                    *@
 
-                </div>
+            <div class="locations-row">
+                <a asp-action="Accomodations" asp-controller="Booking" asp-route-id="@Model.Morningside">
+                    <div class="location-image">
+                        <img src="~/img/Berea.jpg">
+                        <h3 class="img-text">  Berea  </h3>
+                        @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
+                        *@
+                    </div>
+                </a>
+                <a asp-action="Accomodations" asp-controller="Booking" asp-route-id="@Model.Umhlanga">
+                    <div class="location-image">
+                        <img src="~/img/UmhlangaR.jpg">
+                        <h3 class="img-text">  Umhlanga </h3>
+                        @*                   <p> ----------- ENTER CODE HERE # SIHLE ------- </p>
+                        *@
+
+                    </div>
+                </a>
             </div>
             <div class="locations-row2">
-                <a asp-action="Accomodations" asp-controller="Booking">
-                <div class="location-image2">
-                    <img src="~/img/durbanN.jpg">
-                    <h3 class="img-text"> Durban North   </h3>
-                </div>
+                <a asp-action="Accomodations" asp-controller="Booking" asp-route-id="@Model.DurbanNort">
+                    <div class="location-image2">
+                        <img src="~/img/durbanN.jpg">
+                        <h3 class="img-text"> Durban North   </h3>
+                    </div>
                 </a>
-                <div class="location-image2">
-                    <img src="~/img/westville.jpg">
-                    <h3 class="img-text"> Westville   </h3>
-                </div>
-
-
-                <div class="location-image2">
-                    <img src="~/img/durbanC.jpg">
-                    <h3 class="img-text"> Durban Central   </h3>
-                </div>
-
+                <a asp-action="Accomodations" asp-controller="Booking" asp-route-id="@Model.Westville">
+                    <div class="location-image2">
+                        <img src="~/img/westville.jpg">
+                        <h3 class="img-text"> Westville   </h3>
+                    </div>
+                </a>
+                <a asp-action="Accomodations" asp-controller="Booking" asp-route-id="@Model.Durban">
+                    <div class="location-image2">
+                        <img src="~/img/durbanC.jpg">
+                        <h3 class="img-text"> Durban Central   </h3>
+                    </div>
+                </a>
             </div>
         </div>
 
